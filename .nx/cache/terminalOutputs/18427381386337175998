@@ -1,0 +1,161 @@
+Compiling TypeScript files for project "api"...
+[1m[31m[96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/entities/user.entity.ts[0m:[93m2[0m:[93m22[0m - [91merror[0m[90m TS6059: [0mFile '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/data/src/index.ts' is not under 'rootDir' '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api'. 'rootDir' is expected to contain all source files.[39m[22m
+[1m[31m  The file is in the program because:[39m[22m
+[1m[31m    Imported via '@tm/data' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/entities/user.entity.ts'[39m[22m
+[1m[31m    Imported via '@tm/data' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/lib/rbac.ts'[39m[22m
+[1m[31m    Imported via '@tm/data' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/lib/rbac.guard.ts'[39m[22m
+[1m[31m    Imported via '@tm/data' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/auth/auth.service.ts'[39m[22m
+[1m[31m    Imported via '@tm/data' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/auth/jwt.strategy.ts'[39m[22m
+[1m[31m    Imported via '@tm/data' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/entities/task.entity.ts'[39m[22m
+[1m[31m    Imported via '@tm/data' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/orgs/orgs.service.ts'[39m[22m
+[1m[31m    Imported via '@tm/data' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/common/request-user.ts'[39m[22m
+[1m[31m    Imported via '@tm/data' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/tasks/tasks.service.ts'[39m[22m
+[1m[31m    Imported via '@tm/data' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/tasks/dtos.ts'[39m[22m
+[1m[31m    Imported via '@tm/data' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/seed/seed.module.ts'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m import { Role } from '@tm/data';[39m[22m
+[1m[31m[7m [0m [91m                     ~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/lib/rbac.ts[0m:[93m1[0m:[93m22[0m[39m[22m
+[1m[31m    [7m1[0m import { Role } from '@tm/data';[39m[22m
+[1m[31m    [7m [0m [96m                     ~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/lib/rbac.guard.ts[0m:[93m3[0m:[93m22[0m[39m[22m
+[1m[31m    [7m3[0m import { Role } from '@tm/data';[39m[22m
+[1m[31m    [7m [0m [96m                     ~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/auth/auth.service.ts[0m:[93m6[0m:[93m22[0m[39m[22m
+[1m[31m    [7m6[0m import { Role } from '@tm/data';[39m[22m
+[1m[31m    [7m [0m [96m                     ~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/auth/jwt.strategy.ts[0m:[93m4[0m:[93m22[0m[39m[22m
+[1m[31m    [7m4[0m import { Role } from '@tm/data';[39m[22m
+[1m[31m    [7m [0m [96m                     ~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/entities/task.entity.ts[0m:[93m2[0m:[93m42[0m[39m[22m
+[1m[31m    [7m2[0m import { TaskCategory, TaskStatus } from '@tm/data';[39m[22m
+[1m[31m    [7m [0m [96m                                         ~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/orgs/orgs.service.ts[0m:[93m4[0m:[93m22[0m[39m[22m
+[1m[31m    [7m4[0m import { Role } from '@tm/data';[39m[22m
+[1m[31m    [7m [0m [96m                     ~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/common/request-user.ts[0m:[93m1[0m:[93m22[0m[39m[22m
+[1m[31m    [7m1[0m import { Role } from '@tm/data';[39m[22m
+[1m[31m    [7m [0m [96m                     ~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/tasks/tasks.service.ts[0m:[93m4[0m:[93m42[0m[39m[22m
+[1m[31m    [7m4[0m import { TaskCategory, TaskStatus } from '@tm/data';[39m[22m
+[1m[31m    [7m [0m [96m                                         ~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/tasks/dtos.ts[0m:[93m2[0m:[93m42[0m[39m[22m
+[1m[31m    [7m2[0m import { TaskCategory, TaskStatus } from '@tm/data';[39m[22m
+[1m[31m    [7m [0m [96m                                         ~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/seed/seed.module.ts[0m:[93m4[0m:[93m48[0m[39m[22m
+[1m[31m    [7m4[0m import { Role, TaskCategory, TaskStatus } from '@tm/data';[39m[22m
+[1m[31m    [7m [0m [96m                                               ~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m[96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/auth/auth.controller.ts[0m:[93m2[0m:[93m24[0m - [91merror[0m[90m TS6059: [0mFile '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/index.ts' is not under 'rootDir' '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api'. 'rootDir' is expected to contain all source files.[39m[22m
+[1m[31m  The file is in the program because:[39m[22m
+[1m[31m    Imported via '@tm/auth' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/auth/auth.controller.ts'[39m[22m
+[1m[31m    Imported via '@tm/auth' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/tasks/tasks.controller.ts'[39m[22m
+[1m[31m    Imported via '@tm/auth' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/tasks/task-access.guard.ts'[39m[22m
+[1m[31m    Imported via '@tm/auth' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/audit/audit.controller.ts'[39m[22m
+[1m[31m    Imported via '@tm/auth' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/auth/jwt-auth.guard.ts'[39m[22m
+[1m[31m    Imported via '@tm/auth' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/app.module.ts'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m import { Public } from '@tm/auth';[39m[22m
+[1m[31m[7m [0m [91m                       ~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/tasks/tasks.controller.ts[0m:[93m2[0m:[93m41[0m[39m[22m
+[1m[31m    [7m2[0m import { Permissions, Permission } from '@tm/auth';[39m[22m
+[1m[31m    [7m [0m [96m                                        ~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/tasks/task-access.guard.ts[0m:[93m4[0m:[93m47[0m[39m[22m
+[1m[31m    [7m4[0m import { Permission, hasAllPermissions } from '@tm/auth';[39m[22m
+[1m[31m    [7m [0m [96m                                              ~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/audit/audit.controller.ts[0m:[93m2[0m:[93m41[0m[39m[22m
+[1m[31m    [7m2[0m import { Permissions, Permission } from '@tm/auth';[39m[22m
+[1m[31m    [7m [0m [96m                                        ~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/auth/jwt-auth.guard.ts[0m:[93m4[0m:[93m28[0m[39m[22m
+[1m[31m    [7m4[0m import { PUBLIC_KEY } from '@tm/auth';[39m[22m
+[1m[31m    [7m [0m [96m                           ~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api/src/modules/app.module.ts[0m:[93m15[0m:[93m27[0m[39m[22m
+[1m[31m    [7m15[0m import { RbacGuard } from '@tm/auth';[39m[22m
+[1m[31m    [7m  [0m [96m                          ~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m[96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/index.ts[0m:[93m1[0m:[93m15[0m - [91merror[0m[90m TS6059: [0mFile '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/lib/rbac.ts' is not under 'rootDir' '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api'. 'rootDir' is expected to contain all source files.[39m[22m
+[1m[31m  The file is in the program because:[39m[22m
+[1m[31m    Imported via './lib/rbac' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/index.ts'[39m[22m
+[1m[31m    Imported via './rbac' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/lib/permissions.decorator.ts'[39m[22m
+[1m[31m    Imported via './rbac' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/lib/rbac.guard.ts'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m1[0m export * from './lib/rbac';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/lib/permissions.decorator.ts[0m:[93m2[0m:[93m28[0m[39m[22m
+[1m[31m    [7m2[0m import { Permission } from './rbac';[39m[22m
+[1m[31m    [7m [0m [96m                           ~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/lib/rbac.guard.ts[0m:[93m6[0m:[93m47[0m[39m[22m
+[1m[31m    [7m6[0m import { Permission, hasAllPermissions } from './rbac';[39m[22m
+[1m[31m    [7m [0m [96m                                              ~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m[96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/index.ts[0m:[93m2[0m:[93m15[0m - [91merror[0m[90m TS6059: [0mFile '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/lib/permissions.decorator.ts' is not under 'rootDir' '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api'. 'rootDir' is expected to contain all source files.[39m[22m
+[1m[31m  The file is in the program because:[39m[22m
+[1m[31m    Imported via './lib/permissions.decorator' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/index.ts'[39m[22m
+[1m[31m    Imported via './permissions.decorator' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/lib/rbac.guard.ts'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m export * from './lib/permissions.decorator';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/lib/rbac.guard.ts[0m:[93m4[0m:[93m33[0m[39m[22m
+[1m[31m    [7m4[0m import { PERMISSIONS_KEY } from './permissions.decorator';[39m[22m
+[1m[31m    [7m [0m [96m                                ~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m[96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/index.ts[0m:[93m3[0m:[93m15[0m - [91merror[0m[90m TS6059: [0mFile '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/lib/public.decorator.ts' is not under 'rootDir' '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api'. 'rootDir' is expected to contain all source files.[39m[22m
+[1m[31m  The file is in the program because:[39m[22m
+[1m[31m    Imported via './lib/public.decorator' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/index.ts'[39m[22m
+[1m[31m    Imported via './public.decorator' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/lib/rbac.guard.ts'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m3[0m export * from './lib/public.decorator';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/lib/rbac.guard.ts[0m:[93m5[0m:[93m28[0m[39m[22m
+[1m[31m    [7m5[0m import { PUBLIC_KEY } from './public.decorator';[39m[22m
+[1m[31m    [7m [0m [96m                           ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m[96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/index.ts[0m:[93m4[0m:[93m15[0m - [91merror[0m[90m TS6059: [0mFile '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/auth/src/lib/rbac.guard.ts' is not under 'rootDir' '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api'. 'rootDir' is expected to contain all source files.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m4[0m export * from './lib/rbac.guard';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/data/src/index.ts[0m:[93m1[0m:[93m15[0m - [91merror[0m[90m TS6059: [0mFile '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/data/src/lib/enums.ts' is not under 'rootDir' '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api'. 'rootDir' is expected to contain all source files.[39m[22m
+[1m[31m  The file is in the program because:[39m[22m
+[1m[31m    Imported via './lib/enums' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/data/src/index.ts'[39m[22m
+[1m[31m    Imported via './enums' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/data/src/lib/dtos.ts'[39m[22m
+[1m[31m    Imported via './enums' from file '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/data/src/lib/models.ts'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m1[0m export * from './lib/enums';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/data/src/lib/dtos.ts[0m:[93m1[0m:[93m42[0m[39m[22m
+[1m[31m    [7m1[0m import { TaskCategory, TaskStatus } from './enums';[39m[22m
+[1m[31m    [7m [0m [96m                                         ~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m  [96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/data/src/lib/models.ts[0m:[93m1[0m:[93m48[0m[39m[22m
+[1m[31m    [7m1[0m import { Role, TaskCategory, TaskStatus } from './enums';[39m[22m
+[1m[31m    [7m [0m [96m                                               ~~~~~~~~~[0m[39m[22m
+[1m[31m    File is included via import here.[39m[22m
+[1m[31m[96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/data/src/index.ts[0m:[93m2[0m:[93m15[0m - [91merror[0m[90m TS6059: [0mFile '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/data/src/lib/dtos.ts' is not under 'rootDir' '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api'. 'rootDir' is expected to contain all source files.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m export * from './lib/dtos';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[96m/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/data/src/index.ts[0m:[93m3[0m:[93m15[0m - [91merror[0m[90m TS6059: [0mFile '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/libs/data/src/lib/models.ts' is not under 'rootDir' '/Users/Vidhi patel/Desktop/sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c/apps/api'. 'rootDir' is expected to contain all source files.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m3[0m export * from './lib/models';[39m[22m
+[1m[31m[7m [0m [91m              ~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m

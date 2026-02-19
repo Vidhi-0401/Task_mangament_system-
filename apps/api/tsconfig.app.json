@@ -1,4 +1,10 @@
 {
-  "extends": "./tsconfig.json",
-  "compilerOptions": { "types": ["node"] }
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "rootDir": "../..",
+    "outDir": "../../dist/apps/api"
+  },
+  "include": ["apps/api/src/**/*.ts", "libs/**/*.ts"],
+  "exclude": ["**/*.spec.ts", "**/*.test.ts", "node_modules", "dist"]
 }

@@ -73,84 +73,47 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".gitignore",
-        "hash": "11053117625695839656"
-      },
-      {
-        "file": ".angular/cache/17.3.17/dashboard/.tsbuildinfo",
-        "hash": "2456928862223920455"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "17589344310237708194"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "1253560411712438454"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "18357281686119875431"
+        "file": "package.json",
+        "hash": "6097369567796476731"
       },
       {
         "file": "nx.json",
         "hash": "10928445864400062191"
       },
       {
-        "file": "VIDEO_GUIDE.md",
-        "hash": "10269163402376913476"
+        "file": "tsconfig.json",
+        "hash": "18357281686119875431"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "17589344310237708194"
+      },
+      {
+        "file": ".angular/cache/17.3.17/dashboard/.tsbuildinfo",
+        "hash": "4065327517240534443"
       },
       {
         "file": "README.md",
         "hash": "1339066515376072513"
       },
       {
+        "file": "tsconfig.base.json",
+        "hash": "1253560411712438454"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "11053117625695839656"
+      },
+      {
         "file": "jest.preset.js",
         "hash": "9894787809337442656"
       },
       {
-        "file": "package.json",
-        "hash": "6097369567796476731"
+        "file": "VIDEO_GUIDE.md",
+        "hash": "10269163402376913476"
       }
     ],
     "projectFileMap": {
-      "data": [
-        {
-          "file": "libs/data/jest.config.ts",
-          "hash": "16619419491915483041",
-          "deps": [
-            "npm:jest"
-          ]
-        },
-        {
-          "file": "libs/data/project.json",
-          "hash": "14024097800404309557"
-        },
-        {
-          "file": "libs/data/src/index.ts",
-          "hash": "14519134504008132543"
-        },
-        {
-          "file": "libs/data/src/lib/dtos.ts",
-          "hash": "14164493109445720037"
-        },
-        {
-          "file": "libs/data/src/lib/enums.ts",
-          "hash": "12121040314307232568"
-        },
-        {
-          "file": "libs/data/src/lib/models.ts",
-          "hash": "10860998962860891073"
-        },
-        {
-          "file": "libs/data/tsconfig.json",
-          "hash": "10412890901530902191"
-        },
-        {
-          "file": "libs/data/tsconfig.spec.json",
-          "hash": "6914353414439836354"
-        }
-      ],
       "api": [
         {
           "file": "apps/api/jest.config.ts",
@@ -161,7 +124,7 @@
         },
         {
           "file": "apps/api/project.json",
-          "hash": "3371424443484720818"
+          "hash": "9289934305154470650"
         },
         {
           "file": "apps/api/src/entities/audit-log.entity.ts",
@@ -193,7 +156,7 @@
         },
         {
           "file": "apps/api/src/main.ts",
-          "hash": "16061172919316543154",
+          "hash": "3357858795337072440",
           "deps": [
             "npm:reflect-metadata",
             "npm:@nestjs/common",
@@ -367,7 +330,7 @@
         },
         {
           "file": "apps/api/tsconfig.app.json",
-          "hash": "12026216450352347721"
+          "hash": "18384666966090274871"
         },
         {
           "file": "apps/api/tsconfig.json",
@@ -375,6 +338,103 @@
         },
         {
           "file": "apps/api/tsconfig.spec.json",
+          "hash": "6914353414439836354"
+        }
+      ],
+      "data": [
+        {
+          "file": "libs/data/jest.config.ts",
+          "hash": "16619419491915483041",
+          "deps": [
+            "npm:jest"
+          ]
+        },
+        {
+          "file": "libs/data/project.json",
+          "hash": "14024097800404309557"
+        },
+        {
+          "file": "libs/data/src/index.ts",
+          "hash": "14519134504008132543"
+        },
+        {
+          "file": "libs/data/src/lib/dtos.ts",
+          "hash": "14164493109445720037"
+        },
+        {
+          "file": "libs/data/src/lib/enums.ts",
+          "hash": "12121040314307232568"
+        },
+        {
+          "file": "libs/data/src/lib/models.ts",
+          "hash": "10860998962860891073"
+        },
+        {
+          "file": "libs/data/tsconfig.json",
+          "hash": "10412890901530902191"
+        },
+        {
+          "file": "libs/data/tsconfig.spec.json",
+          "hash": "6914353414439836354"
+        }
+      ],
+      "auth": [
+        {
+          "file": "libs/auth/jest.config.ts",
+          "hash": "12488666809539293485",
+          "deps": [
+            "npm:jest"
+          ]
+        },
+        {
+          "file": "libs/auth/project.json",
+          "hash": "15336119902408505780"
+        },
+        {
+          "file": "libs/auth/src/index.ts",
+          "hash": "14828933837725275918"
+        },
+        {
+          "file": "libs/auth/src/lib/permissions.decorator.ts",
+          "hash": "5584584321498313478",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/auth/src/lib/public.decorator.ts",
+          "hash": "9863007351624561159",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/auth/src/lib/rbac.guard.ts",
+          "hash": "415622087656674651",
+          "deps": [
+            "data"
+          ]
+        },
+        {
+          "file": "libs/auth/src/lib/rbac.spec.ts",
+          "hash": "17868713734034361285",
+          "deps": [
+            "data"
+          ]
+        },
+        {
+          "file": "libs/auth/src/lib/rbac.ts",
+          "hash": "2313299097863813313",
+          "deps": [
+            "data"
+          ]
+        },
+        {
+          "file": "libs/auth/tsconfig.json",
+          "hash": "10412890901530902191"
+        },
+        {
+          "file": "libs/auth/tsconfig.spec.json",
           "hash": "6914353414439836354"
         }
       ],
@@ -513,66 +573,6 @@
         {
           "file": "apps/dashboard/tsconfig.spec.json",
           "hash": "8258449278413892679"
-        }
-      ],
-      "auth": [
-        {
-          "file": "libs/auth/jest.config.ts",
-          "hash": "12488666809539293485",
-          "deps": [
-            "npm:jest"
-          ]
-        },
-        {
-          "file": "libs/auth/project.json",
-          "hash": "15336119902408505780"
-        },
-        {
-          "file": "libs/auth/src/index.ts",
-          "hash": "14828933837725275918"
-        },
-        {
-          "file": "libs/auth/src/lib/permissions.decorator.ts",
-          "hash": "5584584321498313478",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "libs/auth/src/lib/public.decorator.ts",
-          "hash": "9863007351624561159",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "libs/auth/src/lib/rbac.guard.ts",
-          "hash": "415622087656674651",
-          "deps": [
-            "data"
-          ]
-        },
-        {
-          "file": "libs/auth/src/lib/rbac.spec.ts",
-          "hash": "17868713734034361285",
-          "deps": [
-            "data"
-          ]
-        },
-        {
-          "file": "libs/auth/src/lib/rbac.ts",
-          "hash": "2313299097863813313",
-          "deps": [
-            "data"
-          ]
-        },
-        {
-          "file": "libs/auth/tsconfig.json",
-          "hash": "10412890901530902191"
-        },
-        {
-          "file": "libs/auth/tsconfig.spec.json",
-          "hash": "6914353414439836354"
         }
       ]
     }
