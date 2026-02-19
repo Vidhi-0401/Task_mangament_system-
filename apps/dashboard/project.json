@@ -1,0 +1,59 @@
+{
+  "name": "dashboard",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/dashboard/src",
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:browser-esbuild",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/dashboard",
+        "index": "apps/dashboard/src/index.html",
+        "main": "apps/dashboard/src/main.ts",
+        "polyfills": ["zone.js"],
+        "tsConfig": "apps/dashboard/tsconfig.app.json",
+        "assets": ["apps/dashboard/src/favicon.ico", "apps/dashboard/src/assets"],
+        "styles": ["apps/dashboard/src/styles.css"],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "optimization": true,
+          "sourceMap": false
+        },
+        "development": {
+          "optimization": false,
+          "sourceMap": true
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "serve": {
+      "executor": "@nx/angular:dev-server",
+      "options": {
+        "buildTarget": "dashboard:build:development",
+        "proxyConfig": "apps/dashboard/proxy.conf.json"
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "dashboard:build:production",
+          "proxyConfig": "apps/dashboard/proxy.conf.json"
+        },
+        "development": {
+          "buildTarget": "dashboard:build:development",
+          "proxyConfig": "apps/dashboard/proxy.conf.json"
+        }
+      },
+      "defaultConfiguration": "development"
+      },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/apps/dashboard"],
+      "options": {
+        "jestConfig": "apps/dashboard/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

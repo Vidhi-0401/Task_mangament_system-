@@ -1,0 +1,23 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020", "DOM"],
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@tm/auth": ["libs/auth/src/index.ts"],
+      "@tm/auth/*": ["libs/auth/src/*"],
+      "@tm/data": ["libs/data/src/index.ts"],
+      "@tm/data/*": ["libs/data/src/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

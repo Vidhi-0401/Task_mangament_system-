@@ -1,0 +1,13 @@
+{
+  "name": "auth",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/auth/src",
+  "projectType": "library",
+  "targets": {
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/libs/auth"],
+      "options": { "jestConfig": "libs/auth/jest.config.ts", "passWithNoTests": true }
+    }
+  }
+}

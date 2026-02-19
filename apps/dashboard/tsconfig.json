@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "types": [],
+    "module": "es2020",
+    "target": "es2020",
+    "useDefineForClassFields": false
+  },
+  "include": ["src/**/*.ts"]
+}

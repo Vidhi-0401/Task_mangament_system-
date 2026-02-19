@@ -1,0 +1,15 @@
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mCannot find builder 'browser' in C:\Users\Vidhi patel\Desktop\sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c\node_modules\@nx\angular\executors.json.[39m
+
+Error: Cannot find builder 'browser' in C:\Users\Vidhi patel\Desktop\sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c\node_modules\@nx\angular\executors.json.
+    at WrappedWorkspaceNodeModulesArchitectHost.readExecutorsJson (C:\Users\Vidhi patel\Desktop\sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c\node_modules\nx\src\adapter\ngcli-adapter.js:815:23)
+    at WrappedWorkspaceNodeModulesArchitectHost.resolveBuilder (C:\Users\Vidhi patel\Desktop\sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c\node_modules\nx\src\adapter\ngcli-adapter.js:792:64)
+    at name (C:\Users\Vidhi patel\Desktop\sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c\node_modules\@angular-devkit\architect\src\architect.js:208:40)
+    at Observable._subscribe (C:\Users\Vidhi patel\Desktop\sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c\node_modules\@angular-devkit\architect\src\jobs\create-job-handler.js:107:26)
+    at Observable._trySubscribe (C:\Users\Vidhi patel\Desktop\sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c\node_modules\rxjs\dist\cjs\internal\Observable.js:41:25)
+    at C:\Users\Vidhi patel\Desktop\sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c\node_modules\rxjs\dist\cjs\internal\Observable.js:35:31
+    at Object.errorContext (C:\Users\Vidhi patel\Desktop\sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c\node_modules\rxjs\dist\cjs\internal\util\errorContext.js:22:9)
+    at Observable.subscribe (C:\Users\Vidhi patel\Desktop\sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c\node_modules\rxjs\dist\cjs\internal\Observable.js:26:24)
+    at C:\Users\Vidhi patel\Desktop\sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c\node_modules\rxjs\dist\cjs\internal\operators\switchMap.js:17:63
+    at OperatorSubscriber._this._next (C:\Users\Vidhi patel\Desktop\sreddy-3b74d3db-679f-4c83-8319-e447cc74d63c\node_modules\rxjs\dist\cjs\internal\operators\OperatorSubscriber.js:33:21)
+
